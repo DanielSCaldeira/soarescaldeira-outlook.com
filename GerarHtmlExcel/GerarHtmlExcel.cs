@@ -36,7 +36,6 @@ namespace GerarHtmlExcel
 
                 ExcelWorksheet worksheet = xlPackage.Workbook.Worksheets.FirstOrDefault();
                 int rows = worksheet.Dimension.Rows;
-
                 int columns = worksheet.Dimension.Columns;
 
                 for (int r = 1; r < rows; r++)
